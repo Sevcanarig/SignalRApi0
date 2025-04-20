@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj": {}
+    "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj": {
+    "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj",
         "projectName": "SignalR.BusinessLayer",
-        "projectPath": "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,11 +33,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj"
+              "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj"
               },
-              "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj": {
-                "projectPath": "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj"
+              "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj": {
+                "projectPath": "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj"
               }
             }
           }
@@ -47,7 +51,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net6.0": {
@@ -69,26 +74,44 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj": {
+    "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj",
         "projectName": "SignalR.DataAccessLayer",
-        "projectPath": "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,8 +126,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj"
+              "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj"
               }
             }
           }
@@ -118,7 +141,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net6.0": {
@@ -164,26 +188,44 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj": {
+    "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj",
+        "projectUniqueName": "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj",
         "projectName": "SignalR.DtoLayer",
-        "projectPath": "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj",
+        "projectPath": "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj",
         "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.DtoLayer\\obj\\",
+        "outputPath": "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.DtoLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -209,7 +251,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net6.0": {
@@ -225,26 +268,44 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj": {
+    "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj",
         "projectName": "SignalR.EntityLayer",
-        "projectPath": "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj",
+        "projectPath": "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj",
         "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -270,7 +331,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net6.0": {
@@ -296,12 +358,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

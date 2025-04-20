@@ -11184,19 +11184,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\acer\\.nuget\\packages\\": {}
+    "C:\\Users\\acer\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalRWebUI\\SignalRWebUI.csproj",
+      "projectUniqueName": "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalRWebUI\\SignalRWebUI.csproj",
       "projectName": "SignalRWebUI",
-      "projectPath": "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalRWebUI\\SignalRWebUI.csproj",
+      "projectPath": "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalRWebUI\\SignalRWebUI.csproj",
       "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalRWebUI\\obj\\",
+      "outputPath": "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalRWebUI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11211,11 +11216,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj"
+            "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj"
             },
-            "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\acer\\source\\repos\\SignalRApi0\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj"
+            "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\acer\\OneDrive\\Belgeler\\GitHub\\SignalRApi0\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj"
             }
           }
         }
@@ -11229,7 +11234,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net6.0": {
@@ -11277,6 +11283,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -11285,7 +11309,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
